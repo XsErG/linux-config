@@ -11,6 +11,7 @@
 [ -f ~/.xprofile       ] && mv ~/.xprofile       ~/.xprofile.old
 [ -f ~/.profile        ] && mv ~/.profile        ~/.profile.old
 [ -f ~/.gemrc          ] && mv ~/.gemrc          ~/.gemrc.old
+[ -f ~/.zshrc          ] && mv ~/.zshrc          ~/.zshrc.old
 
 git clone https://github.com/XsErG/linux-config ~/.linux-config && \
   ln -s ~/.linux-config/awesome    ~/.config/awesome  && \
@@ -20,4 +21,5 @@ git clone https://github.com/XsErG/linux-config ~/.linux-config && \
   ln -s ~/.linux-config/xprofile   ~/.xprofile        && \
   ln -s ~/.linux-config/Xresources ~/.Xresources      && \
   ln -s ~/.linux-config/profile    ~/.profile         && \
-  ln -s ~/.linux-configgemrc       ~/.gemrc
+  ln -s ~/.linux-config/gemrc      ~/.gemrc           && \
+  ln -s ~/.linux-config/zshrc      ~/.zshrc
