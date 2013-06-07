@@ -22,7 +22,7 @@ URxvt.lineSpace:            0
 
 ! Fonts
 URxvt.allow_bold:           false
-URxvt.font: xft:Terminus for Powerline:pixelsize=18
+URxvt.font: xft:Terminus for Powerline:pixelsize=13
 
 ! Scrollbar
 URxvt.scrollStyle:          rxvt
