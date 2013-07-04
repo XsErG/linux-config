@@ -33,6 +33,8 @@ plugins=(git rails ruby rvm archlinux command-not-found)
 
 source $ZSH/oh-my-zsh.sh
 
+. /usr/share/zsh/site-contrib/powerline.zsh
+
 # Customize to your needs...
 # export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl
 
