@@ -2,7 +2,7 @@
   name      = Sergey Andreyev
   email     = san.andreyev@gmail.com
 [core]
-  editor    = gvim
+  editor    = vim
 [color]
   ui        = true
   branch    = auto
